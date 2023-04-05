@@ -1,0 +1,15 @@
+:root{
+    --primary-background-color: #00457f;  
+    --primary-background-light-color:#184580;
+    --primary-background-dark-color:#0f1a47;
+    --secondary-background-color: #1A2B79; 
+    --primary-color:#ffffff;
+    --seconday-color:#19467F;
+    --primary-font-family: 'poppinsregular';
+    --secondary-font-family: 'poppinsbold';
+    --heading-primary-font-family: 'poppinssemibold';
+    --font-primary-color: #000000;
+    --font-secondary-color: #444242;
+    --light-grey: #f6f6f6;
+    
+}
