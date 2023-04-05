@@ -5,6 +5,8 @@
     <title>Document</title>
 </head>
 <body>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-angle-up"></i></button>
+
     <!-- include header file-->
   <?php include "common/header.php" ?>
         <section class="contact-us-banner">
@@ -20,7 +22,7 @@
 
   <!-- include footer file-->
   <?php include "common/footer.php" ?>
-  
+  <?php include "common/common-js.php" ?>
  
 </body>
 </html>

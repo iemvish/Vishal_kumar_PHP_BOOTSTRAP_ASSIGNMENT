@@ -33,7 +33,7 @@
                   </div>
                   <div class="col-sm-12">
                     <div class="contact-form">
-                      <select class="form-select form-select-lg" aria-label="Default select example">
+                      <select class="form-control form-control-lg" aria-label="Default select example">
                         <option selected>Choose services</option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
@@ -86,7 +86,7 @@
               </div>
               <div class="col-sm-12">
                 <div class="list-block">
-                  <h5 class="list-heading">for hr and other enquiries:</h5>
+                  <h5 class="list-heading mt-3">for hr and other enquiries:</h5>
                   <ul>
                     <li><a href=""><span><i class="fa-solid fa-phone"></i></span>+91-987-726-7234 </a></li>
                     <li><a href="mailto: info@edifyingvoyages.com"><span><i class="fa-solid fa-envelope"></i></span>info@edifyingvoyages.com</a></li>
@@ -96,7 +96,7 @@
               </div>
               <div class="col-sm-12">
                 <div class="last-list-block">
-                  <h5 class="list-heading">more option to reach us:</h5>
+                  <h5 class="list-heading mt-3">more option to reach us:</h5>
                   <ul>
                     <li><a href="">Get in Touch<span><i class="fa-solid fa-angles-right"></i></span></a></li>
                     <li><a href="">Get a Quote<span><i class="fa-solid fa-angles-right"></i></span></a></li>

@@ -1,0 +1,66 @@
+/* footer CSS */
+.footer-bottom {
+    background-color: var(--primary-background-dark-color);
+  }
+  
+  .footer-heading h6 {
+    margin-bottom: 20px;
+    font-family: var(--secondary-font-family);
+  }
+  
+  .footer-bottom ul li {
+    color: var(--primary-color);
+    display: inline-flex;
+  
+  }
+  
+  footer .container .icon-list ul li a {
+    color: var(--primary-color);
+  }
+  
+  footer .container .icon-list ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+  }
+  
+  footer .container .middle-list ul li,
+  footer .container .last-list ul li {
+    list-style: none;
+    margin-bottom: 20px;
+  
+  }
+  
+  footer .container .middle-list ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  footer .container .middle-list ul li:first-child,
+  footer .container .middle-list ul li:nth-child(2) {
+    text-transform: uppercase;
+  }
+  
+  footer .container .middle-list ul li:nth-child(3),
+  footer .container .middle-list ul li:nth-child(4) {
+    text-transform: capitalize;
+  }
+  
+  footer .container .last-list ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+  
+  }
+  
+  footer .container .last-list ul li a span i {
+    font-size: 14px;
+    padding-right: 6px;
+  }
+  
+  .footer-bottom ul li:first-child {
+    padding-right: 47px;
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(75deg, var(--primary-background-color) 10%, var(--primary-background-color)) !important;
+  }

@@ -1,7 +1,7 @@
 <div class="header-top-bar py-3">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-lg-8 col-md-8">
+      <div class="col-sm-12 d-sm-none d-md-block d-lg-block col-lg-8 col-md-8">
         <ul class="contact-list m-0 p-0 me-auto">
         <li><a href="mailto: info@edifyingvoyages.com"><span><i class="fa-solid fa-envelope"></i>    </span>info@edifyingvoyages.com </a></li>
         <li><a href=""><span><i class="fa-solid fa-phone"></i>  </span>+91-708-708-7356 </a></li>
@@ -45,6 +45,7 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">SEO</a></li>
                 <li><a class="dropdown-item" href="#">PPC</a></li>
+                <li><a class="dropdown-item" href="#">social media</a></li>
                 <li><a class="dropdown-item" href="#">GRAPHIC DESIGNER</a></li>
 
               </ul>
