@@ -1,7 +1,6 @@
 /*  index page banner CSS */
 .carousel{
-    width: 100%;
-    background-color: var(--primary-background-color);
+    max-width: 100%;
     position: relative;
 }
 .owl-carousel .owl-dots{
@@ -9,28 +8,35 @@
 }
 .owl-carousel .owl-prev,.owl-carousel .owl-next {
     position: absolute;
-    font-size: 20px;
 }
 .owl-carousel .owl-prev span,
 .owl-carousel .owl-next span
 {
-font-size: 5em;
-padding: 0px 22px 0px 22px;
-background-color: #0d78b4;
-border-radius: 50%;
+    font-size: 6em;
+
+}
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover
+{
+  background-color: var(--primary-color);
 }
 .owl-carousel .owl-prev{
+    position: absolute;
     top:50%;
-    left:0;
-    transform: translate(-100%,-50%);
-
+    left:5%;
+    transform: translate(-50%,-50%);
 }
 .owl-carousel .owl-next{
+    position: absolute;
     top:50%;
-    right:-10%;
-    transform: translate(-100%,-50%);
+    right:3%;
+    transform: translate(-50%,-50%);
 }
-
+.carousel .owl-carousel .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: #FFF;
+    text-decoration: none;
+}
 .banner {
     background-color: var(--primary-background-color);
     height: max-content;
@@ -50,7 +56,14 @@ border-radius: 50%;
 .banner a {
     text-decoration: none;
 }
-
+.carousel-caption{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(9, 30, 62, .85);
+    z-index: 1;
+}
 
 /* index page card CSS */
 .card-section .card .card-body h5 {

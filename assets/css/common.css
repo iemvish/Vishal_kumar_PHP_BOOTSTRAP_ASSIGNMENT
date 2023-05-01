@@ -6,7 +6,6 @@ body {
   font-family: var(--primary-font-family);
   color: #707070;
   line-height: 1.75;
-  font-size: 13px;
 }
 
 h1,h2,h3,h4,h5 {
