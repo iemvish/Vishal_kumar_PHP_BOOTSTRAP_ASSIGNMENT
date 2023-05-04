@@ -14,17 +14,17 @@
   <?php include "common/header.php" ?>
   <div class="banner bg-primary py-5  mb-5">
     <div class="heading">
-      <h1 class="text-white display-3">About Us</h1>
+      <h1 class="text-white display-3">Services</h1>
     </div>
     <p class="text-center">
       <a href="index.php" class="h4">Home</a>
       <i class="far fa-circle text-white px-2"></i>
-      <a href="about-us.php" class="h4">About</a>
+      <a href="services.php" class="h4">Services</a>
     </p>
   </div>
-  <?php include "common/about-main.php" ?>
-
-  
+  <?php include "common/services-main.php" ?>
+        
+    
 
   <!-- footer section -->
   <?php include "common/footer.php" ?>

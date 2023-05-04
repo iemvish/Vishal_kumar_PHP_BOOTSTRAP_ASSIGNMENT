@@ -1,72 +1,53 @@
-<footer class="py-5 gradient-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-12 mt-sm-4">
-          <p class="text-white pe-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen</p>
-          <div class="icon-list">
-            <ul class="m-0 p-0">
-              <li><a href="https://www.facebook.com/Ditstek"><i class="fa-brands fa-facebook-f"></i></a></li>
-              <li><a href="https://twitter.com/DitsTek"><i class="fa-brands fa-twitter"></i></a></li>
-              <li><a href="https://www.linkedin.com/company/ditstek-innovations"><i class="fa-brands fa-linkedin-in"></i></a></li>
-              <li><a href="https://www.youtube.com/c/ditstek"><i class="fa-brands fa-youtube"></i></a></li>
-              <li><a href="https://www.instagram.com/ditstek_innovations/"><i class="fa-brands fa-instagram"></i></a></li>
-            </ul>
-          </div>
+<div class="container-fluid position-relative pt-5">
+        <div class="container">
+            <div class="blue p-5">
+                <form class="mx-auto" style="max-width: 600px;">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                        <button class="rounded-1 dark-blue text-white px-4">Sign Up</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="col-md-4 col-sm-12 mt-sm-4">
-          <div class="footer-heading">
-            <h6 class="text-uppercase text-white">services</h6>
-          </div>
-          <div class="middle-list">
-            <ul class="m-0 p-0">
-              <li><a href="">seo</a></li>
-              <li><a href="">ppc</a></li>
-              <li><a href="">social media</a></li>
-              <li><a href="">graphic design</a></li>
-            </ul>
-          </div>
-
-        </div>
-        <div class="col-md-4 col-sm-12 mt-sm-4">
-          <div class="footer-heading">
-            <h6 class="text-uppercase text-white">get in touch</h6>
-          </div>
-          <div class="last-list">
-            <ul class="m-0 p-0">
-              <li><a href="ditstek.com">  <span><i class="fa-solid fa-location-dot"></i></span>3181 Sector 37-D,Chandigarh, 160036
-                </a></li>
-              <li><a href="mailto: info@edifyingvoyages.com"><span><i class="fa-solid fa-envelope"></i></span>info@edifyingvoyages.com </a></li>
-              <li><a href=""><span><i class="fa-solid fa-phone"></i></span>+91-708-708-7356 </a></li>
-            </ul>
-          </div>
-
-        </div>
-
-      </div>
     </div>
-
-  </footer>
-  <div class="footer-bottom p-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8">
-          <p class="text-white m-0">copyright <i class="fa-regular fa-copyright"></i> 2022. All rights reserved by
-            <span>edifying voyages</span>
-          </p>
+    <div class="footer container-fluid dark-blue text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px; visibility: visible; animation-delay: 0.3s; ">
+        <div class="container pt-5">
+            <div class="row g-5 pt-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Quick Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="fa-solid fa-arrow-right-long text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="#"><i class="fa-solid fa-arrow-right-long text-primary me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="#"><i class="fa-solid fa-arrow-right-long text-primary me-2"></i>Our Services</a>
+                        <a class="text-light mb-2" href="#"><i class="fa-solid fa-arrow-right-long text-primary me-2"></i>Latest Blog</a>
+                        <a class="text-light" href="#"><i class="fa-solid fa-arrow-right-long text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Popular Links</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="fa-solid fa-arrow-right-long text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="#"><i class="fa-solid fa-arrow-right-long text-primary me-2"></i>About Us</a>
+                        <a class="text-light mb-2" href="#"><i class="fa-solid fa-arrow-right-long text-primary me-2"></i>Our Services</a>
+                        <a class="text-light mb-2" href="#"><i class="fa-solid fa-arrow-right-long text-primary me-2"></i>Latest Blog</a>
+                        <a class="text-light" href="#"><i class="fa-solid fa-arrow-right-long text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Get In Touch</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone blue me-2"></i>+012 345 67890</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Follow Us</h3>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-4">
-          <div class="bottom-list">
-            <ul class="m-0 p-0 text-end">
-              <li>privacy policy</li>
-              <li>terms & conditons</li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
     </div>
-
-
-  </div>

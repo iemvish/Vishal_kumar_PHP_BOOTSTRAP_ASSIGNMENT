@@ -1,0 +1,33 @@
+
+@media (max-width: 575.98px) { 
+    .top-header{
+        display: none;
+    }
+ }
+
+@media (max-width: 767.98px) { 
+
+ }
+
+@media (max-width: 991.98px) { 
+.top-header .left-content{
+       width: 100%;
+    }
+    .top-header .right-content{
+        width: 100%;
+    }
+    .main .main-title{
+        width: 100%;
+    }
+    .carousel-caption .animated-text h1{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 1399.98px) {
+
+ }
